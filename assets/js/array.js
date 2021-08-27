@@ -57,3 +57,30 @@ console.log(`numberArray[10]: ${number[5]}`);
 console.log('');
 console.log('');
 console.log('**lev1_4: Arrays Split()');
+
+let meinText1= "Hallo Welt. Ich wünsche euch allen einen guten Arbeitstag.";
+let meinText2="Wie geht es dir heute?";
+let meinText3="Heute ist ein großer Tag für uns.";
+
+const splite1= meinText1.split();
+console.log(splite1);
+const splite2= meinText1.split("");
+console.log(splite2);
+const splite3= meinText1.split(" ");
+console.log(splite3);
+
+const splite4= meinText2.split();
+console.log(splite4);
+const splite5= meinText2.split("");
+console.log(splite5);
+const splite6= meinText2.split(" ");
+console.log(splite6);
+
+const splite7= meinText3.split();
+console.log(splite7);
+const splite8= meinText3.split("");
+console.log(splite8);
+const splite9= meinText3.split(" ");
+console.log(splite9);
+
+
