@@ -187,3 +187,55 @@ werte.shift();// remove an item from the beginning
 werte.shift();
 console.log(werte);
 
+console.log('');
+console.log('');
+console.log('**lev1_10: Arrays delete with Splice()');
+
+
+let array = [
+    "imageTeilnehmer000supercode.jpg",
+    "imageTeilnehmer001supercode.jpg",
+    "imageTeilnehmer002supercode.jpg",
+    "imageTeilnehmer003supercode.jpg",
+    "imageTeilnehmer004supercode.jpg",
+    "imageTeilnehmer005supercode.jpg",
+    "imageTeilnehmer006supercode.jpg",
+    "imageTeilnehmer007supercode.jpg",
+    "imageTeilnehmer008supercode.jpg",
+    "imageTeilnehmer009supercode.jpg",
+    "imageTeilnehmer010supercode.jpg",
+    "imageTeilnehmer011supercode.jpg",
+    "imageTeilnehmer012supercode.jpg",
+    "imageTeilnehmer013supercode.jpg",
+    "imageTeilnehmer014supercode.jpg",
+    "imageTeilnehmer015supercode.jpg",
+    "imageTeilnehmer016supercode.jpg",
+    "imageTeilnehmer017supercode.jpg",
+    "imageTeilnehmer018supercode.jpg",
+    "imageTeilnehmer019supercode.jpg"
+  ];
+  
+  let delImg1=array.splice(4,5);
+  console.log(delImg1);
+  let delImg2=array.splice(5,5);
+  console.log(delImg2);
+  let delImg3=array.splice(2);
+  console.log(delImg3);
+  console.log(array);// ersten beiden 
+
+
+  console.log('');
+console.log('');
+console.log('**lev1_11: Arrays splice()');
+
+var array11= [ "imageTeilnehmer000supercode.jpg", "imageTeilnehmer001supercode.jpg" ];
+// console.log(array11);
+array11.push('imageTeilnehmer008supercode.jpg','imageTeilnehmer009supercode.jpg','imageTeilnehmer010supercode.jpg');
+console.log(array11);
+array11.push('imageTeilnehmer014supercode.jpg','imageTeilnehmer015supercode.jpg','imageTeilnehmer016supercode.jpg', 'imageTeilnehmer017supercode.jpg','imageTeilnehmer018supercode.jpg', 'imageTeilnehmer019supercode.jpg');
+console.log(array11);
+array11.push('imageTeilnehmer002supercode.jpg','imageTeilnehmer003supercode.jpg','imageTeilnehmer004supercode.jpg', 'imageTeilnehmer005supercode.jpg','imageTeilnehmer006supercode.jpg', 'imageTeilnehmer007supercode.jpg','imageTeilnehmer011supercode.jpg','imageTeilnehmer012supercode.jpg','imageTeilnehmer013supercode.jpg');
+console.log(array11);
+
+//  frage an Trainern : wie nummerish angezeigt werden ????????????????
+
