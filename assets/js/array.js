@@ -83,4 +83,48 @@ console.log(splite8);
 const splite9= meinText3.split(" ");
 console.log(splite9);
 
+console.log('');
+console.log('');
+console.log('**lev1_5: Arrays push()');
+
+const songs=['Bohemian Rhapsody', 'Stairway to Heaven', 'Hotel California']
+songs.push('Sweet Child O´ Mine');
+songs.push('Hey Jude');
+songs.push('Let it be');
+const totalSongs=songs;
+console.log(totalSongs);
+totalSongs.forEach(function(songs, index){
+    console.log(`${index}: ${songs}`);
+});
+console.log(`length: ${totalSongs.length}`);
+
+let besteFussballer=['Diego Maradona', 'Lionel Messi', 'Cristiano Ronaldo', 'Johan Cruyff','Zinédine Zidane']
+besteFussballer.push('Oliver Baumann', 'Gregor Kobel', 'Manuel Neuer')
+const besteFussballerTotal=besteFussballer
+console.log(besteFussballerTotal);
+besteFussballerTotal.forEach((besteFussballer,index) => console.log(`${index}: ${besteFussballer}`));
+console.log(`length: ${besteFussballerTotal.length}`);
+
+const artists = ["michael", "elvis"];
+artists.push("justin", "charlie");
+console.log(artists);
+artists.forEach((artists,index) => console.log(`${index}; ${artists}`));
+console.log(`length: ${artists.length}`);
+
+
+console.log('');
+console.log('');
+console.log('**lev1_5_2: push() arrays in array');
+const heroUndEnemy=new Array();
+heroUndEnemy[0] ='Batman,The Joker';
+heroUndEnemy[1]= 'professor X, Magneto';
+heroUndEnemy[2]= 'Thor, Loki';
+// console.log(heroUndEnemy);
+heroUndEnemy.push('The Atom,Chronos');
+heroUndEnemy.push('Captain Marvel,Dr.Silvana');
+heroUndEnemy.push('V,Adam Susan');
+console.log(heroUndEnemy);
+heroUndEnemy.forEach((heroUndEnemy,index)=>console.log(`${index}: Array [${heroUndEnemy}]`))
+console.log(`length: ${heroUndEnemy.length}`);
+
 
