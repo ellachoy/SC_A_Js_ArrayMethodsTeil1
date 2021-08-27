@@ -99,7 +99,7 @@ totalSongs.forEach(function(songs, index){
 console.log(`length: ${totalSongs.length}`);
 
 let besteFussballer=['Diego Maradona', 'Lionel Messi', 'Cristiano Ronaldo', 'Johan Cruyff','Zinédine Zidane']
-besteFussballer.push('Oliver Baumann', 'Gregor Kobel', 'Manuel Neuer')
+let Torhueter=besteFussballer.push('Oliver Baumann', 'Gregor Kobel', 'Manuel Neuer')
 const besteFussballerTotal=besteFussballer
 console.log(besteFussballerTotal);
 besteFussballerTotal.forEach((besteFussballer,index) => console.log(`${index}: ${besteFussballer}`));
@@ -115,6 +115,7 @@ console.log(`length: ${artists.length}`);
 console.log('');
 console.log('');
 console.log('**lev1_5_2: push() arrays in array');
+
 const heroUndEnemy=new Array();
 heroUndEnemy[0] ='Batman,The Joker';
 heroUndEnemy[1]= 'professor X, Magneto';
@@ -126,5 +127,25 @@ heroUndEnemy.push('V,Adam Susan');
 console.log(heroUndEnemy);
 heroUndEnemy.forEach((heroUndEnemy,index)=>console.log(`${index}: Array [${heroUndEnemy}]`))
 console.log(`length: ${heroUndEnemy.length}`);
+
+console.log('');
+console.log('');
+console.log('**lev1_6: Arrays pop()');
+
+const entfernterSong=totalSongs.pop();
+console.log(entfernterSong);
+
+const entfernterFussballer=besteFussballerTotal.pop();
+
+console.log(`1.entfernerterFussballer: ${entfernterFussballer}.  2.besteFussballer: ${besteFussballer}`);
+besteFussballerTotal.pop();
+besteFussballerTotal.pop();
+besteFussballerTotal.pop();
+
+console.log(besteFussballer);
+besteFussballerTotal.forEach(function(besteFussballer,index){
+    console.log(`${index}: ${besteFussballer}`);
+});
+
 
 
