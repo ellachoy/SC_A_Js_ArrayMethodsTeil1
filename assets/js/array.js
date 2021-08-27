@@ -160,3 +160,30 @@ deutscheGerichte.unshift('Haxe');
 deutscheGerichte.forEach((index,deutscheGerichte)=>console.log(` ${deutscheGerichte}:  ${index}`));
 console.log(`length: ${deutscheGerichte.length}`);
 
+console.log('');
+console.log('');
+console.log('** lev1_8: Arrays shift()');
+
+deutscheGerichte.shift();
+deutscheGerichte.shift();
+deutscheGerichte.shift();
+const nichtGut=deutscheGerichte;
+
+console.log(nichtGut);
+
+console.log('');
+console.log('');
+console.log('**llev1_9: Push Pop Shift Unshift Difference');
+const werte=[23, 54, 75 ];
+console.log(werte);
+werte.push(11,22,33,44,55);//add an item from the end
+console.log(werte);
+werte.unshift(1,2,3,4,5); // add an item to the beginning
+console.log(werte);
+werte.pop();// remove an item from the end
+werte.pop();
+console.log(werte);
+werte.shift();// remove an item from the beginning
+werte.shift();
+console.log(werte);
+
