@@ -147,5 +147,16 @@ besteFussballerTotal.forEach(function(besteFussballer,index){
     console.log(`${index}: ${besteFussballer}`);
 });
 
+console.log('');
+console.log('');
+console.log('**lev1_7: Arrays unshift()');
 
+const deutscheGerichte=['Speckkuchen', 'Türinger Rostwurst', 'Quarkkeulchen', 'Sauerbraten'];
+deutscheGerichte.unshift('Bremer Knipp');
+deutscheGerichte.unshift('Linseneintopf');
+deutscheGerichte.unshift('pinkel mit Grükohl');
+deutscheGerichte.unshift('Schnitzel');
+deutscheGerichte.unshift('Haxe');
+deutscheGerichte.forEach((index,deutscheGerichte)=>console.log(` ${deutscheGerichte}:  ${index}`));
+console.log(`length: ${deutscheGerichte.length}`);
 
